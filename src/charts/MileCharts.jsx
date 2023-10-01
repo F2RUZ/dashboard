@@ -9,7 +9,7 @@ const MileCharts = () => {
           <XAxis dataKey="name" stroke="#2884ff" />
           <Bar
             dataKey="mileStats"
-            barSize={30}
+            barSize={20}
             stroke="#2884ff"
             fill="#2884ff"
           />
