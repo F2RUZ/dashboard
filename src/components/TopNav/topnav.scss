@@ -1,0 +1,89 @@
+.top__nav {
+  position: fixed;
+  top: 0;
+  left: calc(260px + 10px);
+  z-index: 999;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(6, 5, 81, 1) 0%,
+    rgba(14, 13, 105, 1) 100%,
+    rgba(9, 8, 108, 1) 100%,
+    rgba(13, 13, 154, 1) 100%,
+    rgba(40, 17, 255, 1) 100%
+  );
+  width: calc(100% - 260px);
+  height: 70px;
+  line-height: 70px;
+}
+
+.top__nav-wrapper {
+ 
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 30px;
+}
+
+.top__nav-right {
+  display: flex;
+  align-items: center;
+  column-gap: 2rem;
+  justify-content: flex-end;
+}
+.search__box {
+  display: flex;
+  align-items: center;
+  column-gap: 5px;
+  padding: 0 12px;
+  height: 40px;
+  border-radius: 5px;
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(6, 5, 81, 1) 0%,
+    rgba(14, 13, 105, 1) 100%,
+    rgba(9, 8, 108, 1) 100%,
+    rgba(13, 13, 154, 1) 100%,
+    rgba(40, 17, 255, 1) 100%
+  );
+  cursor: pointer;
+  justify-content: space-between;
+}
+.search__box input {
+  background: transparent;
+  border: none;
+  outline: none;
+  color: grey;
+  width: 90%;
+}
+
+.topNav__img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  object-fit: cover;
+}
+.search__icon {
+  color: grey;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+.notifikation {
+  position: relative;
+}
+.badge {
+  position: absolute;
+  top: 25%;
+  right: 0;
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  background-color: darkgreen;
+  color: white;
+  cursor: pointer;
+}

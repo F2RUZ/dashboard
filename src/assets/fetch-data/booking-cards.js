@@ -1,0 +1,118 @@
+import car01 from "../images/bmw01.png";
+import car02 from "../images/bmw02.png";
+import car03 from "../images/bmw03.png";
+import car04 from "../images/bmw04.png";
+import car05 from "../images/bmw05.png";
+import car06 from "../images/bmw06.png";
+
+const BookingCars = [
+  {
+    id: "01",
+    carName: "BMW M8 xDrive",
+    category: "Audi",
+    type: "Manual",
+    groupSize: 4,
+    rentPrice: 100,
+    imgUrl: car01,
+  },
+  {
+    id: "02",
+    carName: "Porshe M8 xDrive",
+    category: "Toyota",
+    type: "Manual",
+    groupSize: 4,
+    rentPrice: 59,
+    imgUrl: car02,
+  },
+  {
+    id: "01",
+    carName: "Porshe 718 Cayman ",
+    category: "Bmw",
+    type: "Manual",
+    groupSize: 4,
+    rentPrice: 109,
+    imgUrl: car03,
+  },
+  {
+    id: "04",
+    carName: "Ferrari",
+    category: "Coupe",
+    type: "Manual",
+    groupSize: 4,
+    rentPrice: 150,
+    imgUrl: car04,
+  },
+  {
+    id: "05",
+    carName: "BMW M8 xDrive",
+    category: "Bmw",
+    type: "Manual",
+    groupSize: 4,
+    rentPrice: 500,
+    imgUrl: car05,
+  },
+  {
+    id: "06",
+    carName: "BMW M8 xDrive",
+    category: "Audi",
+    type: "Manual",
+    groupSize: 4,
+    rentPrice: 100,
+    imgUrl: car06,
+  },
+  {
+    id: "07",
+    carName: "BMW M8 xDrive",
+    category: "Audi",
+    type: "Manual",
+    groupSize: 4,
+    rentPrice: 100,
+    imgUrl: car01,
+  },
+  {
+    id: "08",
+    carName: "Porshe M8 xDrive",
+    category: "Toyota",
+    type: "Manual",
+    groupSize: 4,
+    rentPrice: 59,
+    imgUrl: car02,
+  },
+  {
+    id: "09",
+    carName: "Porshe 718 Cayman ",
+    category: "Bmw",
+    type: "Manual",
+    groupSize: 4,
+    rentPrice: 109,
+    imgUrl: car03,
+  },
+  {
+    id: "10",
+    carName: "Ferrari",
+    category: "Coupe",
+    type: "Manual",
+    groupSize: 4,
+    rentPrice: 150,
+    imgUrl: car04,
+  },
+  {
+    id: "11",
+    carName: "BMW M8 xDrive",
+    category: "Bmw",
+    type: "Manual",
+    groupSize: 4,
+    rentPrice: 500,
+    imgUrl: car05,
+  },
+  {
+    id: "12",
+    carName: "BMW M8 xDrive",
+    category: "Audi",
+    type: "Manual",
+    groupSize: 4,
+    rentPrice: 100,
+    imgUrl: car06,
+  },
+];
+export default BookingCars;
