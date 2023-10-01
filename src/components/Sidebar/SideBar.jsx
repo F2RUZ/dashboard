@@ -3,6 +3,8 @@ import navLinks from "../../assets/fetch-data/navLinks";
 import "./sidebar.scss";
 import { NavLink } from "react-router-dom";
 const SideBar = () => {
+
+ 
   return (
     <div className="sidebar">
       <div className="sidebar__top">

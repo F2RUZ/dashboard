@@ -190,3 +190,18 @@
   grid-template-columns: repeat(3, 1fr);
   column-gap: 2rem;
 }
+
+@media only screen and (max-width: 425px) {
+  .dashboard__cards {
+    grid-template-columns: repeat(1, 1fr);
+    row-gap: 2rem;
+    width: 100%;
+  }
+  .statics {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .recommed__cars__wrapper {
+    grid-template-columns: repeat(1, 3fr);
+    row-gap: 2rem;
+  }
+}
