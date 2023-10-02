@@ -10,7 +10,7 @@ const CarItem = (props) => {
           <p>{category}</p>
         </div>
         <span>
-          <i className="ri-heart-line"></i>
+          <i className="ri-heart-line car__heart"></i>
         </span>
       </div>
       <div className="car__img">
